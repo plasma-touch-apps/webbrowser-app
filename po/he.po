@@ -1,0 +1,684 @@
+# Hebrew translation for webbrowser-app
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the webbrowser-app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: webbrowser-app\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-06-22 12:30+0200\n"
+"PO-Revision-Date: 2014-12-23 13:15+0000\n"
+"Last-Translator: Yaron <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2015-06-23 05:30+0000\n"
+"X-Generator: Launchpad (build 17572)\n"
+
+#: src/app/AlertDialog.qml:23
+msgid "JavaScript Alert"
+msgstr "התראת JavaScript"
+
+#: src/app/AlertDialog.qml:26 src/app/AuthenticationDialog.qml:47
+#: src/app/ConfirmDialog.qml:26 src/app/PromptDialog.qml:32
+#: src/app/webbrowser/LeavePrivateModeDialog.qml:39
+msgid "OK"
+msgstr "אישור"
+
+#: src/app/AuthenticationDialog.qml:24
+msgid "Authentication required."
+msgstr "נדרש אימות."
+
+#. TRANSLATORS: %1 refers to the URL of the current website
+#: src/app/AuthenticationDialog.qml:26
+#, qt-format
+msgid "The website %1 requires authentication."
+msgstr "האתר %1 דורש אימות."
+
+#: src/app/AuthenticationDialog.qml:34
+msgid "Username"
+msgstr "שם משתמש"
+
+#: src/app/AuthenticationDialog.qml:41
+msgid "Password"
+msgstr "ססמה"
+
+#: src/app/AuthenticationDialog.qml:53 src/app/ConfirmDialog.qml:31
+#: src/app/PromptDialog.qml:38 src/app/webbrowser/HistoryView.qml:165
+#: src/app/webbrowser/LeavePrivateModeDialog.qml:32
+#: src/app/webbrowser/SettingsPage.qml:301
+msgid "Cancel"
+msgstr "ביטול"
+
+#: src/app/BeforeUnloadDialog.qml:23
+msgid "Confirm Navigation"
+msgstr "אישור הניווט"
+
+#: src/app/BeforeUnloadDialog.qml:26
+msgid "Leave"
+msgstr "לצאת"
+
+#: src/app/BeforeUnloadDialog.qml:31
+msgid "Stay"
+msgstr "להישאר"
+
+#: src/app/CertificateVerificationDialog.qml:24
+msgid "This connection is untrusted"
+msgstr "חיבור זה אינו מאובטח"
+
+#. TRANSLATORS: %1 refers to the hostname
+#: src/app/CertificateVerificationDialog.qml:26
+#, qt-format
+msgid ""
+"You are trying to securely reach %1, but the security certificate of this "
+"website is not trusted."
+msgstr "ניסית לגשת אל %1 באופן מאובטח, אך אישור האבטחה של אתר זה אינו מהימן."
+
+#: src/app/CertificateVerificationDialog.qml:29
+#: src/app/InvalidCertificateErrorSheet.qml:160
+msgid "Proceed anyway"
+msgstr "להמשיך בכל זאת"
+
+#: src/app/CertificateVerificationDialog.qml:35
+#: src/app/InvalidCertificateErrorSheet.qml:173
+msgid "Back to safety"
+msgstr "חזרה לחוף מבטחים"
+
+#: src/app/ConfirmDialog.qml:23
+msgid "JavaScript Confirmation"
+msgstr "אישור JavaScript"
+
+#: src/app/ErrorSheet.qml:36
+msgid "Network Error"
+msgstr "שגיאת רשת"
+
+#. TRANSLATORS: %1 refers to the URL of the current page
+#: src/app/ErrorSheet.qml:42
+#, qt-format
+msgid "It appears you are having trouble viewing: %1."
+msgstr "מסתבר כי התעוררה בעייה בהצגה: %1."
+
+#: src/app/ErrorSheet.qml:48
+msgid ""
+"Ubuntu suggests you check your network settings and try refreshing the page."
+msgstr "המלצת אובונטו היא לבדוק את הגדרות הרשת שלך ולנסות לרענן את העמוד."
+
+#: src/app/ErrorSheet.qml:53
+msgid "Refresh page"
+msgstr "רענון העמוד"
+
+#: src/app/FilePickerDialog.qml:28
+msgid "Please choose a file"
+msgstr "נא לבחור בקובץ"
+
+#: src/app/GeolocationPermissionRequest.qml:28
+msgid "Permission Request"
+msgstr "בקשת הרשאה"
+
+#: src/app/GeolocationPermissionRequest.qml:29
+msgid "This page wants to know your device’s location."
+msgstr "עמוד זה רוצה לדעת את מיקום המכשיר שלך"
+
+#: src/app/GeolocationPermissionRequest.qml:33
+msgid "Deny"
+msgstr "דחייה"
+
+#: src/app/GeolocationPermissionRequest.qml:43
+msgid "Allow"
+msgstr "קבלה"
+
+#: src/app/InvalidCertificateErrorSheet.qml:55
+msgid "This site security certificate is not trusted.\n"
+msgstr "אישור האבטחה של אתר זה אינו מהימן.\n"
+
+#: src/app/InvalidCertificateErrorSheet.qml:63
+msgid "Learn more"
+msgstr "מידע נוסף"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's serial number
+#: src/app/InvalidCertificateErrorSheet.qml:87
+#, qt-format
+msgid ""
+"Serial number:\n"
+"%1"
+msgstr ""
+"מספר סידורי:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject display name
+#: src/app/InvalidCertificateErrorSheet.qml:94
+#, qt-format
+msgid ""
+"Subject:\n"
+"%1"
+msgstr ""
+"נמען:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject's address
+#: src/app/InvalidCertificateErrorSheet.qml:102
+#, qt-format
+msgid ""
+"Subject address:\n"
+"%1"
+msgstr ""
+"כתובת הנמען:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer display name
+#: src/app/InvalidCertificateErrorSheet.qml:113
+#, qt-format
+msgid ""
+"Issuer:\n"
+"%1"
+msgstr ""
+"מנפיק:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer's address
+#: src/app/InvalidCertificateErrorSheet.qml:121
+#, qt-format
+msgid ""
+"Issuer address:\n"
+"%1"
+msgstr ""
+"כתובת המנפיק:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's start date
+#: src/app/InvalidCertificateErrorSheet.qml:132
+#, qt-format
+msgid ""
+"Valid from:\n"
+"%1"
+msgstr ""
+"תחילת תוקף:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's expiry date
+#: src/app/InvalidCertificateErrorSheet.qml:139
+#, qt-format
+msgid ""
+"Valid until:\n"
+"%1"
+msgstr ""
+"תום תוקף:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's SHA1 fingerprint
+#: src/app/InvalidCertificateErrorSheet.qml:146
+#, qt-format
+msgid ""
+"Fingerprint (SHA1):\n"
+"%1"
+msgstr ""
+"טביעת אצבע (SHA1):\n"
+"%1"
+
+#: src/app/InvalidCertificateErrorSheet.qml:153
+msgid ""
+"You should not proceed, especially if you have never seen this warning "
+"before for this site."
+msgstr ""
+"עדיף לך לא להמשיך, במיוחד אם טרם ראית את האזהרה הזו בעבר עבור אתר זה."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:187
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"which does not match the identity of the site."
+msgstr "ניסית להגיע אל %1 אך השרת הציג אישור אבטחה שאינו תואם לזהות האתר."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:190
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"which has expired."
+msgstr "ניסית להגיע אל %1 אך השרת הציג אישור אבטחה שתוקפו פג."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:193
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"which contains invalid dates."
+msgstr "ניסית להגיע אל %1 אך השרת הציג אישור אבטחה שמכיל תאריכים שגויים."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:196
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"issued by an entity that is not trusted."
+msgstr ""
+"ניסית להגיע אל %1 אך השרת הציג אישור אבטחה שהונפק על־ידי יישות בלתי מהימנה."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:199
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"that has been revoked."
+msgstr "ניסית להגיע אל %1 אך השרת הציג אישור אבטחה שנשלל."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:202
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented an invalid security "
+"certificate."
+msgstr "ניסית להגיע אל %1 אך השרת הציג אישור אבטחה שגוי."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:205
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented an insecure security "
+"certificate."
+msgstr "ניסית להגיע אל %1 אך השרת הציג אישור אבטחה בלתי מאובטח."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:208
+#, qt-format
+msgid ""
+"This site security certificate is not trusted\n"
+"You attempted to reach %1 but the server presented a security certificate "
+"which failed our security checks for an unknown reason."
+msgstr ""
+"אישור האבטחה של האתר בלתי מהימן\n"
+"ניסית להגיע אל %1 אך השרת הציג אישור אבטחה שלא צלח את בדיקות האבטחה שלנו "
+"מסיבות שאינן ידועות."
+
+#: src/app/PromptDialog.qml:23
+msgid "JavaScript Prompt"
+msgstr "בקשה מ־JavaScript"
+
+#: src/app/ProxyAuthenticationDialog.qml:22
+msgid "Proxy authentication required."
+msgstr "נדרש אימות מול המתווך."
+
+#. TRANSLATORS: %1 refers to the proxy address, %2 refers to the proxy port
+#: src/app/ProxyAuthenticationDialog.qml:24
+#, qt-format
+msgid "The website %1:%2 requires authentication."
+msgstr "האתר %1:%2 דורש אימות."
+
+#: src/app/actions/Back.qml:23
+msgid "Back"
+msgstr "אחורה"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Back' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Back.qml:26
+msgid "Older Page"
+msgstr "דף ישן יותר"
+
+#: src/app/actions/Bookmark.qml:23
+msgid "Bookmark"
+msgstr "סימנייה"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Bookmark' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Bookmark.qml:26
+msgid "Add This Page to Bookmarks"
+msgstr "הוספת עמוד זה לסימניות"
+
+#: src/app/actions/BookmarkLink.qml:22
+msgid "Bookmark link"
+msgstr "קישור הסימנייה"
+
+#: src/app/actions/ClearHistory.qml:23
+msgid "Clear History"
+msgstr "מחיקת ההיסטוריה"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Clear History' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/ClearHistory.qml:26
+msgid "Clear Navigation History"
+msgstr "מחיקת היסטוריית הניווט"
+
+#: src/app/actions/Copy.qml:22
+msgid "Copy"
+msgstr "העתקה"
+
+#: src/app/actions/CopyImage.qml:22
+msgid "Copy image"
+msgstr "העתקת תמונה"
+
+#: src/app/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr "העתקת קישור"
+
+#: src/app/actions/Forward.qml:23
+msgid "Forward"
+msgstr "קדימה"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Forward' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Forward.qml:26
+msgid "Newer Page"
+msgstr "דף חדש יותר"
+
+#: src/app/actions/GoTo.qml:23
+msgid "Goto"
+msgstr "גישה"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Goto' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/GoTo.qml:26
+msgid "Address;URL;www"
+msgstr "כתובת;URL;www;דפדפן"
+
+#: src/app/actions/NewTab.qml:23 src/app/webbrowser/Browser.qml:522
+msgid "New Tab"
+msgstr "לשונית חדשה"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'New Tab' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/NewTab.qml:26
+msgid "Open a New Tab"
+msgstr "פתיחת לשונית חדשה"
+
+#: src/app/actions/OpenImageInNewTab.qml:22
+msgid "Open image in new tab"
+msgstr "פתיחת תמונה בחלון חדש"
+
+#: src/app/actions/OpenLinkInNewBackgroundTab.qml:22
+msgid "Open link in new background tab"
+msgstr ""
+
+#: src/app/actions/OpenLinkInNewTab.qml:22
+msgid "Open link in new tab"
+msgstr "פתיחת קישור בלשונית חדשה"
+
+#: src/app/actions/Reload.qml:23
+msgid "Reload"
+msgstr "טעינה מחדש"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Reload' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Reload.qml:26
+msgid "Leave Page"
+msgstr "עזיבת העמוד"
+
+#: src/app/actions/SaveImage.qml:22
+msgid "Save image"
+msgstr "שמירת התמונה"
+
+#: src/app/actions/ShareLink.qml:22
+msgid "Share…"
+msgstr "שיתוף…"
+
+#: src/app/webbrowser/AddressBar.qml:201
+msgid "search or enter an address"
+msgstr "ניתן לחפש או להזין כתובת"
+
+#: src/app/webbrowser/Browser.qml:292
+msgid "Share"
+msgstr "שיתוף"
+
+#: src/app/webbrowser/Browser.qml:299
+msgid "History"
+msgstr "היסטוריה"
+
+#: src/app/webbrowser/Browser.qml:309
+msgid "Open tabs"
+msgstr "לשוניות פתוחות"
+
+#: src/app/webbrowser/Browser.qml:320 src/app/webbrowser/HistoryView.qml:121
+#: src/app/webbrowser/TabsList.qml:85
+msgid "New tab"
+msgstr "לשונית חדשה"
+
+#: src/app/webbrowser/Browser.qml:327 src/app/webbrowser/SettingsPage.qml:51
+msgid "Settings"
+msgstr ""
+
+#: src/app/webbrowser/Browser.qml:336
+msgid "Leave Private Mode"
+msgstr ""
+
+#: src/app/webbrowser/Browser.qml:336
+msgid "Private Mode"
+msgstr ""
+
+#: src/app/webbrowser/Browser.qml:508 src/app/webbrowser/HistoryView.qml:108
+msgid "Done"
+msgstr "בוצע"
+
+#. TRANSLATORS: %1 refers to the current number of tabs opened
+#: src/app/webbrowser/Browser.qml:606
+#, qt-format
+msgid "(%1)"
+msgstr ""
+
+#: src/app/webbrowser/Browser.qml:889
+msgid "Swipe Up To Exit Full Screen"
+msgstr ""
+
+#: src/app/webbrowser/Browser.qml:890
+msgid "Press ESC To Exit Full Screen"
+msgstr ""
+
+#: src/app/webbrowser/ExpandedHistoryView.qml:103
+#, qt-format
+msgid "%1 page"
+msgid_plural "%1 pages"
+msgstr[0] "עמוד %1"
+msgstr[1] "%1 עמודים"
+
+#: src/app/webbrowser/ExpandedHistoryView.qml:118
+#: src/app/webbrowser/NewTabView.qml:124
+msgid "Less"
+msgstr "פחות"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:44
+msgid "Last Visited"
+msgstr "ביקרת לאחרונה"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:46
+msgid "Yesterday"
+msgstr "אתמול"
+
+#: src/app/webbrowser/HistoryView.qml:180
+msgid "Select all"
+msgstr ""
+
+#: src/app/webbrowser/HistoryView.qml:210
+msgid "Delete"
+msgstr "מחיקה"
+
+#: src/app/webbrowser/LeavePrivateModeDialog.qml:24
+msgid "Going to public mode will close all private tabs"
+msgstr ""
+
+#: src/app/webbrowser/NewPrivateTabView.qml:41
+msgid "This is a private tab"
+msgstr ""
+
+#: src/app/webbrowser/NewPrivateTabView.qml:56
+msgid ""
+"Pages that you view in this tab won't appear in your browser history.\n"
+"Bookmarks you create will be preserved, however."
+msgstr ""
+
+#: src/app/webbrowser/NewTabView.qml:108
+msgid "Bookmarks"
+msgstr "סימניות"
+
+#: src/app/webbrowser/NewTabView.qml:124
+msgid "More"
+msgstr ""
+
+#: src/app/webbrowser/NewTabView.qml:208
+msgid "Top sites"
+msgstr "אתרים מובילים"
+
+#: src/app/webbrowser/NewTabView.qml:239
+msgid "You haven't visited any site yet"
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:69
+msgid "This site has insecure content"
+msgstr "באתר זה יש תוכן לא מאובטח"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:70
+msgid "Identity Not Verified"
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:78
+msgid "The identity of this website has not been verified."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:89
+msgid "Server certificate does not match the identity of the site."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:91
+msgid "Server certificate has expired."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:93
+msgid "Server certificate contains invalid dates."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:95
+msgid "Server certificate is issued by an entity that is not trusted."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:97
+msgid "Server certificate has been revoked."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:99
+msgid "Server certificate is invalid."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:101
+msgid "Server certificate is insecure."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:103
+msgid "Server certificate failed our security checks for an unknown reason."
+msgstr ""
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:126
+msgid "You are connected to"
+msgstr "התחברת אל"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:148
+msgid "Which is run by"
+msgstr "שמופעל על־ידי"
+
+#: src/app/webbrowser/SettingsPage.qml:81
+#: src/app/webbrowser/SettingsPage.qml:176
+msgid "Search engine"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:92
+#: src/app/webbrowser/SettingsPage.qml:275
+msgid "Homepage"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:101
+msgid "Restore previous session at startup"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:119
+msgid "Allow opening new tabs in background"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:138
+#: src/app/webbrowser/SettingsPage.qml:228
+msgid "Privacy"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:146
+msgid "Reset browser settings"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:249
+msgid "Clear Browsing History"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:256
+msgid "Clear Cache"
+msgstr ""
+
+#: src/app/webbrowser/SettingsPage.qml:311
+msgid "Save"
+msgstr ""
+
+#: src/app/webbrowser/TabPreview.qml:99
+msgid "Tap to view"
+msgstr "יש לגעת כדי לצפות"
+
+#. TRANSLATORS: %1 refers to the current page’s title
+#: src/app/webbrowser/webbrowser-app.qml:35
+#: src/app/webcontainer/webapp-container.qml:65
+#, qt-format
+msgid "%1 - Ubuntu Web Browser"
+msgstr "%1 - דפדפן האינטרנט של אובונטו"
+
+#: src/app/webbrowser/webbrowser-app.qml:37
+#: src/app/webcontainer/webapp-container.qml:67
+msgid "Ubuntu Web Browser"
+msgstr "דפדפן האינטרנט של אובונטו"
+
+#: src/app/webcontainer/AccountsLoginPage.qml:91
+msgid "No local account found for "
+msgstr "לא נמצא חשבון מקומי עבור "
+
+#: src/app/webcontainer/AccountsLoginPage.qml:96
+msgid "Skip account creation step"
+msgstr "דילוג על שלב יצירת החשבון"
+
+#: src/app/webcontainer/AccountsLoginPage.qml:145
+msgid "Add account"
+msgstr "הוספת חשבון"
+
+#: src/app/webcontainer/AccountsView.qml:38
+msgid "Select an account"
+msgstr "נא לבחור חשבון"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:1
+msgid "Browser"
+msgstr "דפדפן"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:2
+msgid "Web Browser"
+msgstr "דפדפן"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:3
+msgid "Browse the World Wide Web"
+msgstr "גלישה ברשת האינטרנט"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:4
+msgid "Internet;WWW;Browser;Web;Explorer"
+msgstr "אינטרנט;רשת;דפדפן;מרשתת;נווט;סייר"
+
+#~ msgid "see less"
+#~ msgstr "הצגת פחות"
+
+#~ msgid "see more"
+#~ msgstr "הצגת יותר"
+
+#~ msgid "Clear"
+#~ msgstr "ניקוי"
+
+#~ msgid "Add"
+#~ msgstr "הוספה"
+
+#~ msgid "No"
+#~ msgstr "לא"
+
+#~ msgid "Yes"
+#~ msgstr "כן"
+
+#~ msgid "Delete all history?"
+#~ msgstr "האם למחוק את כל ההיסטוריה"

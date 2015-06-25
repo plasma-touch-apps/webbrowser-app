@@ -1,0 +1,6 @@
+set(TEST tst_HistoryTimeframeModelTests)
+add_executable(${TEST} tst_HistoryTimeframeModelTests.cpp)
+include_directories(${webbrowser-app_SOURCE_DIR})
+qt5_use_modules(${TEST} Test)
+target_link_libraries(${TEST} webbrowser-app-models)
+add_test(${TEST} ${CMAKE_CURRENT_BINARY_DIR}/${TEST})

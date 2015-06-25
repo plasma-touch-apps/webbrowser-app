@@ -1,0 +1,710 @@
+# Breton translation for webbrowser-app
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the webbrowser-app package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: webbrowser-app\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-06-22 12:30+0200\n"
+"PO-Revision-Date: 2015-06-05 06:13+0000\n"
+"Last-Translator: Fohanno Thierry <thierry.fohanno@ofis-bzh.org>\n"
+"Language-Team: Breton <br@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Launchpad-Export-Date: 2015-06-23 05:30+0000\n"
+"X-Generator: Launchpad (build 17572)\n"
+
+#: src/app/AlertDialog.qml:23
+msgid "JavaScript Alert"
+msgstr "Kemenn JavaScript"
+
+#: src/app/AlertDialog.qml:26 src/app/AuthenticationDialog.qml:47
+#: src/app/ConfirmDialog.qml:26 src/app/PromptDialog.qml:32
+#: src/app/webbrowser/LeavePrivateModeDialog.qml:39
+msgid "OK"
+msgstr "Mat eo"
+
+#: src/app/AuthenticationDialog.qml:24
+msgid "Authentication required."
+msgstr "Dilesadur rekis."
+
+#. TRANSLATORS: %1 refers to the URL of the current website
+#: src/app/AuthenticationDialog.qml:26
+#, qt-format
+msgid "The website %1 requires authentication."
+msgstr "Al lec'hienn web %1 a c'houlenn un dilesadur."
+
+#: src/app/AuthenticationDialog.qml:34
+msgid "Username"
+msgstr "Anv implijer"
+
+#: src/app/AuthenticationDialog.qml:41
+msgid "Password"
+msgstr "Ger-tremen"
+
+#: src/app/AuthenticationDialog.qml:53 src/app/ConfirmDialog.qml:31
+#: src/app/PromptDialog.qml:38 src/app/webbrowser/HistoryView.qml:165
+#: src/app/webbrowser/LeavePrivateModeDialog.qml:32
+#: src/app/webbrowser/SettingsPage.qml:301
+msgid "Cancel"
+msgstr "Nullañ"
+
+#: src/app/BeforeUnloadDialog.qml:23
+msgid "Confirm Navigation"
+msgstr "Kadarnaat ar merdeiñ"
+
+#: src/app/BeforeUnloadDialog.qml:26
+msgid "Leave"
+msgstr "Mont kuit"
+
+#: src/app/BeforeUnloadDialog.qml:31
+msgid "Stay"
+msgstr "Chom"
+
+#: src/app/CertificateVerificationDialog.qml:24
+msgid "This connection is untrusted"
+msgstr "Ne c'haller ket fiziout er c'hennask-mañ"
+
+#. TRANSLATORS: %1 refers to the hostname
+#: src/app/CertificateVerificationDialog.qml:26
+#, qt-format
+msgid ""
+"You are trying to securely reach %1, but the security certificate of this "
+"website is not trusted."
+msgstr ""
+"Emaoc'h o klask tizhout %1 en un doare suraet, met ne c'haller ket fiziout e "
+"testeni surentez al lec'hienn Web-mañ."
+
+#: src/app/CertificateVerificationDialog.qml:29
+#: src/app/InvalidCertificateErrorSheet.qml:160
+msgid "Proceed anyway"
+msgstr "Kenderc'hel memes tra"
+
+#: src/app/CertificateVerificationDialog.qml:35
+#: src/app/InvalidCertificateErrorSheet.qml:173
+msgid "Back to safety"
+msgstr "Distro d'ar surentez"
+
+#: src/app/ConfirmDialog.qml:23
+msgid "JavaScript Confirmation"
+msgstr "Kadarnadur JavaScript"
+
+#: src/app/ErrorSheet.qml:36
+msgid "Network Error"
+msgstr "Fazi gant ar rouedad"
+
+#. TRANSLATORS: %1 refers to the URL of the current page
+#: src/app/ErrorSheet.qml:42
+#, qt-format
+msgid "It appears you are having trouble viewing: %1."
+msgstr "War a seblant ez oc'h lakaet diaes evit gwelet : %1."
+
+#: src/app/ErrorSheet.qml:48
+msgid ""
+"Ubuntu suggests you check your network settings and try refreshing the page."
+msgstr ""
+"Ubuntu a ali ac'hanoc'h da wiriañ arventennoù ho rouedad ha da glask "
+"freskaat ar bajenn."
+
+#: src/app/ErrorSheet.qml:53
+msgid "Refresh page"
+msgstr "Freskaat ar bajenn"
+
+#: src/app/FilePickerDialog.qml:28
+msgid "Please choose a file"
+msgstr "Dibabit ur restr, mar plij"
+
+#: src/app/GeolocationPermissionRequest.qml:28
+msgid "Permission Request"
+msgstr "Goulenn aotre"
+
+#: src/app/GeolocationPermissionRequest.qml:29
+msgid "This page wants to know your device’s location."
+msgstr "Fellout a ra d'ar bajenn-mañ gouzout pelec'h emañ ho trobarzhell."
+
+#: src/app/GeolocationPermissionRequest.qml:33
+msgid "Deny"
+msgstr "Nac'h"
+
+#: src/app/GeolocationPermissionRequest.qml:43
+msgid "Allow"
+msgstr "Aotren"
+
+#: src/app/InvalidCertificateErrorSheet.qml:55
+msgid "This site security certificate is not trusted.\n"
+msgstr "Ne c'haller ket kaout fiziañs e testeni surentez al lec'hienn-mañ.\n"
+
+#: src/app/InvalidCertificateErrorSheet.qml:63
+msgid "Learn more"
+msgstr "Gouzout hiroc'h"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's serial number
+#: src/app/InvalidCertificateErrorSheet.qml:87
+#, qt-format
+msgid ""
+"Serial number:\n"
+"%1"
+msgstr ""
+"Niverenn rummad :\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject display name
+#: src/app/InvalidCertificateErrorSheet.qml:94
+#, qt-format
+msgid ""
+"Subject:\n"
+"%1"
+msgstr ""
+"Sujed :\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's subject's address
+#: src/app/InvalidCertificateErrorSheet.qml:102
+#, qt-format
+msgid ""
+"Subject address:\n"
+"%1"
+msgstr ""
+"Chomlec'h ar sujed :\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer display name
+#: src/app/InvalidCertificateErrorSheet.qml:113
+#, qt-format
+msgid ""
+"Issuer:\n"
+"%1"
+msgstr ""
+"Kaser :\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's issuer's address
+#: src/app/InvalidCertificateErrorSheet.qml:121
+#, qt-format
+msgid ""
+"Issuer address:\n"
+"%1"
+msgstr ""
+"Chomlec'h ar c'haser :\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's start date
+#: src/app/InvalidCertificateErrorSheet.qml:132
+#, qt-format
+msgid ""
+"Valid from:\n"
+"%1"
+msgstr ""
+"Gwiriek adalek{nbsp]:\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's expiry date
+#: src/app/InvalidCertificateErrorSheet.qml:139
+#, qt-format
+msgid ""
+"Valid until:\n"
+"%1"
+msgstr ""
+"Gwiriek betek :\n"
+"%1"
+
+#. TRANSLATORS: %1 refers to the SSL certificate's SHA1 fingerprint
+#: src/app/InvalidCertificateErrorSheet.qml:146
+#, qt-format
+msgid ""
+"Fingerprint (SHA1):\n"
+"%1"
+msgstr ""
+"Roud biz (SHA1) :\n"
+"%1"
+
+#: src/app/InvalidCertificateErrorSheet.qml:153
+msgid ""
+"You should not proceed, especially if you have never seen this warning "
+"before for this site."
+msgstr ""
+"Ne dlefec'h ket mont a-raok, dreist-holl ma n'ho peus ket gwelet ar "
+"gemennadenn-mañ a-raok evit al lec'hienn-mañ."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:187
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"which does not match the identity of the site."
+msgstr ""
+"Klasket ho peus mont da %1 met diskouezet ez eus bet gant ar servijer un "
+"testeni surentez ha ne glot ket gant identelezh al lec'hienn."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:190
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"which has expired."
+msgstr ""
+"Klasket ho peus mont da %1 met diskouezet ez eus bet un testeni surentez "
+"diamzeret gant ar servijer."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:193
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"which contains invalid dates."
+msgstr ""
+"Klasket ho peus mont da %1 met diskouezet ez eus bet gant ar servijer un "
+"testeni surentez ennañ deiziadoù direizh."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:196
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"issued by an entity that is not trusted."
+msgstr ""
+"Klasket ho peus mont da %1 met diskouezet ez eus bet gant ar servijer un "
+"testeni surentez graet gant un ensavadur ne c'haller ket kaour fiziañs ennañ."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:199
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented a security certificate "
+"that has been revoked."
+msgstr ""
+"Klasket ho peus mont da %1 met diskouezet ez eus bet gant ar servijer un "
+"testeni surentez hag a zo bet torret."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:202
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented an invalid security "
+"certificate."
+msgstr ""
+"Klasket ho peus mont da %1 met diskouezet ez eus bet un testeni surentez "
+"direizh gant ar servijer."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:205
+#, qt-format
+msgid ""
+"You attempted to reach %1 but the server presented an insecure security "
+"certificate."
+msgstr ""
+"Klasket ho peus mont da %1 met diskouezet ez eus bet un testeni surentez "
+"diasur gant ar servijer."
+
+#. TRANSLATORS: %1 refers to the domain name of the SSL certificate
+#: src/app/InvalidCertificateErrorSheet.qml:208
+#, qt-format
+msgid ""
+"This site security certificate is not trusted\n"
+"You attempted to reach %1 but the server presented a security certificate "
+"which failed our security checks for an unknown reason."
+msgstr ""
+"Ne c'haller ket kaour fiziañs e testeni surentez al lec'hienn-mañ\n"
+"Klasket ho peus mont da %1 met diskouezet ez eus bet gant ar servijer un "
+"testeni surentez ha n'en deus ket gallet tremen hor gwiriadennoù surentez "
+"evit un abeg dianav."
+
+#: src/app/PromptDialog.qml:23
+msgid "JavaScript Prompt"
+msgstr "Ped JavaScript"
+
+#: src/app/ProxyAuthenticationDialog.qml:22
+msgid "Proxy authentication required."
+msgstr "Dilesadur proksi rekis."
+
+#. TRANSLATORS: %1 refers to the proxy address, %2 refers to the proxy port
+#: src/app/ProxyAuthenticationDialog.qml:24
+#, qt-format
+msgid "The website %1:%2 requires authentication."
+msgstr "Al lec'hienn web %1:%2 a c'houlenn un dilesadur."
+
+#: src/app/actions/Back.qml:23
+msgid "Back"
+msgstr "Distreiñ"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Back' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Back.qml:26
+msgid "Older Page"
+msgstr "Pajenn goshoc'h"
+
+#: src/app/actions/Bookmark.qml:23
+msgid "Bookmark"
+msgstr "Sined"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Bookmark' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Bookmark.qml:26
+msgid "Add This Page to Bookmarks"
+msgstr "Ouzhpennañ ar bajenn-mañ d'ar sinedoù"
+
+#: src/app/actions/BookmarkLink.qml:22
+msgid "Bookmark link"
+msgstr "Ouzhpennañ al liamm d'ar sinedoù"
+
+#: src/app/actions/ClearHistory.qml:23
+msgid "Clear History"
+msgstr "Diverkañ an istor"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Clear History' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/ClearHistory.qml:26
+msgid "Clear Navigation History"
+msgstr "Diverkañ an istor merdeiñ"
+
+#: src/app/actions/Copy.qml:22
+msgid "Copy"
+msgstr "Eilañ"
+
+#: src/app/actions/CopyImage.qml:22
+msgid "Copy image"
+msgstr "Eilañ ar skeudenn"
+
+#: src/app/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr "Eilañ al liamm"
+
+#: src/app/actions/Forward.qml:23
+msgid "Forward"
+msgstr "War-raok"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Forward' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Forward.qml:26
+msgid "Newer Page"
+msgstr "Pajenn nevesoc'h"
+
+#: src/app/actions/GoTo.qml:23
+msgid "Goto"
+msgstr "Mont da"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Goto' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/GoTo.qml:26
+msgid "Address;URL;www"
+msgstr "Chomlec'h;URL;www"
+
+#: src/app/actions/NewTab.qml:23 src/app/webbrowser/Browser.qml:522
+msgid "New Tab"
+msgstr "Ivinell nevez"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'New Tab' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/NewTab.qml:26
+msgid "Open a New Tab"
+msgstr "Digeriñ un ivinell nevez"
+
+#: src/app/actions/OpenImageInNewTab.qml:22
+msgid "Open image in new tab"
+msgstr "Digeriñ ar skeudenn en un ivinell nevez"
+
+#: src/app/actions/OpenLinkInNewBackgroundTab.qml:22
+msgid "Open link in new background tab"
+msgstr "Digeriñ al liamm en un ivinell nevez en drekleur"
+
+#: src/app/actions/OpenLinkInNewTab.qml:22
+msgid "Open link in new tab"
+msgstr "Digeriñ al liamm en un ivinell nevez"
+
+#: src/app/actions/Reload.qml:23
+msgid "Reload"
+msgstr "Adkargañ"
+
+#. TRANSLATORS: This is a free-form list of keywords associated to the 'Reload' action.
+#. Keywords may actually be sentences, and must be separated by semi-colons.
+#: src/app/actions/Reload.qml:26
+msgid "Leave Page"
+msgstr "Kuitaat ar bajenn"
+
+#: src/app/actions/SaveImage.qml:22
+msgid "Save image"
+msgstr "Enrollañ ar skeudenn"
+
+#: src/app/actions/ShareLink.qml:22
+msgid "Share…"
+msgstr "Rannañ..."
+
+#: src/app/webbrowser/AddressBar.qml:201
+msgid "search or enter an address"
+msgstr "klask pe ebarzhiñ ur chomlec'h"
+
+#: src/app/webbrowser/Browser.qml:292
+msgid "Share"
+msgstr "Rannañ"
+
+#: src/app/webbrowser/Browser.qml:299
+msgid "History"
+msgstr "Istor"
+
+#: src/app/webbrowser/Browser.qml:309
+msgid "Open tabs"
+msgstr "Ivinelloù digor"
+
+#: src/app/webbrowser/Browser.qml:320 src/app/webbrowser/HistoryView.qml:121
+#: src/app/webbrowser/TabsList.qml:85
+msgid "New tab"
+msgstr "Ivinell nevez"
+
+#: src/app/webbrowser/Browser.qml:327 src/app/webbrowser/SettingsPage.qml:51
+msgid "Settings"
+msgstr "Arventennoù"
+
+#: src/app/webbrowser/Browser.qml:336
+msgid "Leave Private Mode"
+msgstr "Kuitaat ar mod prevez"
+
+#: src/app/webbrowser/Browser.qml:336
+msgid "Private Mode"
+msgstr "Mod prevez"
+
+#: src/app/webbrowser/Browser.qml:508 src/app/webbrowser/HistoryView.qml:108
+msgid "Done"
+msgstr "Graet eo"
+
+#. TRANSLATORS: %1 refers to the current number of tabs opened
+#: src/app/webbrowser/Browser.qml:606
+#, qt-format
+msgid "(%1)"
+msgstr "(%1)"
+
+#: src/app/webbrowser/Browser.qml:889
+msgid "Swipe Up To Exit Full Screen"
+msgstr "Riklañ d'an nec'h evit kuitaat ar skramm leun"
+
+#: src/app/webbrowser/Browser.qml:890
+msgid "Press ESC To Exit Full Screen"
+msgstr "Pouezañ war ESC evit kuitatt ar skramm leun"
+
+#: src/app/webbrowser/ExpandedHistoryView.qml:103
+#, qt-format
+msgid "%1 page"
+msgid_plural "%1 pages"
+msgstr[0] "%1 bajenn"
+msgstr[1] "%1 a bajennoù"
+
+#: src/app/webbrowser/ExpandedHistoryView.qml:118
+#: src/app/webbrowser/NewTabView.qml:124
+msgid "Less"
+msgstr "Nebeutoc'h"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:44
+msgid "Last Visited"
+msgstr "Gweladennet da ziwezhañ"
+
+#: src/app/webbrowser/HistorySectionDelegate.qml:46
+msgid "Yesterday"
+msgstr "Dec'h"
+
+#: src/app/webbrowser/HistoryView.qml:180
+msgid "Select all"
+msgstr "Diuzañ pep tra"
+
+#: src/app/webbrowser/HistoryView.qml:210
+msgid "Delete"
+msgstr "Diverkañ"
+
+#: src/app/webbrowser/LeavePrivateModeDialog.qml:24
+msgid "Going to public mode will close all private tabs"
+msgstr "Ma'z it d'ar mod e vo serret an holl ivinelloù prevez"
+
+#: src/app/webbrowser/NewPrivateTabView.qml:41
+msgid "This is a private tab"
+msgstr "Un ivinell brevez eo homañ"
+
+#: src/app/webbrowser/NewPrivateTabView.qml:56
+msgid ""
+"Pages that you view in this tab won't appear in your browser history.\n"
+"Bookmarks you create will be preserved, however."
+msgstr ""
+"Ar pajennoù a welit en ivinell-mañ ne zeuont ket war-wel en istor ho "
+"merdeer.\n"
+"Koulskoude e vo miret ar sinedoù ho po krouet."
+
+#: src/app/webbrowser/NewTabView.qml:108
+msgid "Bookmarks"
+msgstr "Sinedoù"
+
+#: src/app/webbrowser/NewTabView.qml:124
+msgid "More"
+msgstr "Muioc'h"
+
+#: src/app/webbrowser/NewTabView.qml:208
+msgid "Top sites"
+msgstr "Lec'hiennoù gwellañ"
+
+#: src/app/webbrowser/NewTabView.qml:239
+msgid "You haven't visited any site yet"
+msgstr "N'oc'h bet e lec'hienn ebet c'hoazh"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:69
+msgid "This site has insecure content"
+msgstr "Al lec'hienn-mañ zo traoù diasur enni."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:70
+msgid "Identity Not Verified"
+msgstr "Identelezh n'eo ket bet gwiriet"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:78
+msgid "The identity of this website has not been verified."
+msgstr "N'eo ket bet gwiriet identelezh al lec'hienn web-mañ"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:89
+msgid "Server certificate does not match the identity of the site."
+msgstr "Ne glot ket testeni ar servijer gant identelezh al lec'hienn."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:91
+msgid "Server certificate has expired."
+msgstr "Diamzeret eo testeni ar servijer."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:93
+msgid "Server certificate contains invalid dates."
+msgstr "Deiziadoù direizh zo e testeni ar servijer."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:95
+msgid "Server certificate is issued by an entity that is not trusted."
+msgstr ""
+"Graet eo bet testeni ar servijer gant un aozadur ha ne c'haller ket kaout "
+"fiziañs ennañ."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:97
+msgid "Server certificate has been revoked."
+msgstr "Torret eo bet testeni ar servijer."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:99
+msgid "Server certificate is invalid."
+msgstr "Direizh eo testeni ar servijer."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:101
+msgid "Server certificate is insecure."
+msgstr "N'eo ket suraet testeni ar servijer."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:103
+msgid "Server certificate failed our security checks for an unknown reason."
+msgstr ""
+"Testeni ar servijer n'en deus ket tremenet hor c'hontrolloù surentez evit un "
+"abeg dianav."
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:126
+msgid "You are connected to"
+msgstr "Kennasket oc'h ouzh"
+
+#: src/app/webbrowser/SecurityCertificatePopover.qml:148
+msgid "Which is run by"
+msgstr "Hag a zo kaset en-dro gant"
+
+#: src/app/webbrowser/SettingsPage.qml:81
+#: src/app/webbrowser/SettingsPage.qml:176
+msgid "Search engine"
+msgstr "Keflusker enklask"
+
+#: src/app/webbrowser/SettingsPage.qml:92
+#: src/app/webbrowser/SettingsPage.qml:275
+msgid "Homepage"
+msgstr "Degemer"
+
+#: src/app/webbrowser/SettingsPage.qml:101
+msgid "Restore previous session at startup"
+msgstr "Assevel an dalc'h kent pa loc'her"
+
+#: src/app/webbrowser/SettingsPage.qml:119
+msgid "Allow opening new tabs in background"
+msgstr "Aotren digeriñ ivinelloù nevez en drekleur"
+
+#: src/app/webbrowser/SettingsPage.qml:138
+#: src/app/webbrowser/SettingsPage.qml:228
+msgid "Privacy"
+msgstr "Prevezded"
+
+#: src/app/webbrowser/SettingsPage.qml:146
+msgid "Reset browser settings"
+msgstr "Adderaouekaat arventennoù ar merdeer"
+
+#: src/app/webbrowser/SettingsPage.qml:249
+msgid "Clear Browsing History"
+msgstr "Diverkañ istor ar merdeiñ"
+
+#: src/app/webbrowser/SettingsPage.qml:256
+msgid "Clear Cache"
+msgstr "Goulloiñ ar grubuilh"
+
+#: src/app/webbrowser/SettingsPage.qml:311
+msgid "Save"
+msgstr "Enrollañ"
+
+#: src/app/webbrowser/TabPreview.qml:99
+msgid "Tap to view"
+msgstr "Touch da welet"
+
+#. TRANSLATORS: %1 refers to the current page’s title
+#: src/app/webbrowser/webbrowser-app.qml:35
+#: src/app/webcontainer/webapp-container.qml:65
+#, qt-format
+msgid "%1 - Ubuntu Web Browser"
+msgstr "%1 - Merdeer Web Ubuntu"
+
+#: src/app/webbrowser/webbrowser-app.qml:37
+#: src/app/webcontainer/webapp-container.qml:67
+msgid "Ubuntu Web Browser"
+msgstr "Merdeer Web Ubuntu"
+
+#: src/app/webcontainer/AccountsLoginPage.qml:91
+msgid "No local account found for "
+msgstr "N'eus bet kavet kont lec'hel ebet evit "
+
+#: src/app/webcontainer/AccountsLoginPage.qml:96
+msgid "Skip account creation step"
+msgstr "Mont dreist ar bazenn krouiñ ur gont"
+
+#: src/app/webcontainer/AccountsLoginPage.qml:145
+msgid "Add account"
+msgstr "Ouzhpennañ ur gont"
+
+#: src/app/webcontainer/AccountsView.qml:38
+msgid "Select an account"
+msgstr "Diuzañ ur gont"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:1
+msgid "Browser"
+msgstr "Merdeer"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:2
+msgid "Web Browser"
+msgstr "Merdeer web"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:3
+msgid "Browse the World Wide Web"
+msgstr "Merdeiñ war ar Web"
+
+#: po/src/app/webbrowser/webbrowser-app.desktop.in.in.h:4
+msgid "Internet;WWW;Browser;Web;Explorer"
+msgstr "Internet;WWW;Merdeer;Web;Ergerzher"
+
+#~ msgid "see less"
+#~ msgstr "gwelet nebeutoc'h"
+
+#~ msgid "see more"
+#~ msgstr "gwelet muioc'h"
+
+#~ msgid "Clear"
+#~ msgstr "Naetaat"
+
+#~ msgid "Add"
+#~ msgstr "Ouzhpennañ"
+
+#~ msgid "No"
+#~ msgstr "Arabat"
+
+#~ msgid "Yes"
+#~ msgstr "Ya"
+
+#~ msgid "Delete all history?"
+#~ msgstr "Diverkañ an istor a-bezh ?"
